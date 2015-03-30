@@ -6,3 +6,5 @@ Also, branching info is NOT available in the IDE, but rather in the reports
 available in the target section
 
 mvn -DskipTests=false clean verify
+
+http://www.eclemma.org/jacoco/
