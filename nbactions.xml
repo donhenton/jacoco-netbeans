@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
         <action>
-            <actionName>CUSTOM-cobetura</actionName>
-            <displayName>cobetura</displayName>
+            <actionName>CUSTOM-jacoco-run</actionName>
+            <displayName>jacoco-run</displayName>
             <goals>
                  
                 <goal>clean</goal>
-                <goal>cobertura:cobertura</goal>
+                <goal>verify</goal>
             </goals>
             <properties>
                 <skipTests>false</skipTests>
