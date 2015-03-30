@@ -13,7 +13,7 @@ public class ThingToTest {
 
     public enum ANIMAL_TYPE {
 
-        cat, dog
+        cat, dog,unknown
     }
 
     public String doAnimalThing(ANIMAL_TYPE type) {
@@ -34,6 +34,7 @@ public class ThingToTest {
 
                 default:
                     t = "hummph!!";
+                    break;
 
             }
         }
