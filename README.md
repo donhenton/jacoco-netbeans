@@ -1,0 +1,1 @@
+mvn -DskipTests=false -DskipTests=false -Dcobertura.report.format=html cobertura:clean cobertura:cobertura
